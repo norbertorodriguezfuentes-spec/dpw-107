@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Playeras de Fútbol</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>⚽ Tienda Futbolera</h1>
+    <button id="verCarrito">🛒 Carrito (<span id="contador">0</span>)</button>
+  </header>
+
+  <main class="contenedor-productos" id="productos"></main>
+
+  <div class="modal-carrito" id="modalCarrito">
+    <div class="carrito-contenido">
+      <h2>Tu Carrito</h2>
+      <div id="itemsCarrito"></div>
+      <p id="totalCarrito">Total: $0</p>
+      <button id="vaciarCarrito">Vaciar Carrito</button>
+      <button id="cerrarCarrito">Cerrar</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Tienda Futbolera - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

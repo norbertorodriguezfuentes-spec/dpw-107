@@ -1,0 +1,111 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #008037;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  #verCarrito {
+    background-color: white;
+    color: #008037;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  
+  .contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .producto {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .producto img {
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .producto h3 {
+    margin: 10px 0;
+  }
+  
+  .producto button {
+    background-color: #008037;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .producto button:hover {
+    background-color: #00a84a;
+  }
+  
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+  }
+  
+  /* Modal Carrito */
+  .modal-carrito {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carrito-contenido {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  #vaciarCarrito, #cerrarCarrito {
+    background-color: #d11a2a;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #vaciarCarrito:hover, #cerrarCarrito:hover {
+    background-color: #ff3547;
+  }
+  
